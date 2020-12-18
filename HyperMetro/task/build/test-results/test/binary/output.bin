@@ -1,0 +1,74 @@
+[1;31m
+Start test 1[0m
+C> /fastest-route "Victoria line" "Brixton" "Northern line" "Angel"
+	Brixton
+Stockwell
+Northern line
+Stockwell
+Oval
+Kennington
+
+Waterloo
+Waterloo & City line
+
+Waterloo
+Bank
+Northern line
+Bank
+
+Moorgate
+Old Street
+Angel
+Total: 47 minutes in the way
+[1;31m
+Start test 2[0m
+S> /route "Piccadilly line" "Heathrow Terminal 5" "Piccadilly line" "Hounslow West"
+Heathrow Terminal 5
+Heathrow Terminals 1—2—3
+Hatton Cross
+Hounslow West
+[1;31m
+Start test 3[0m
+R> /route "Piccadilly line" "Hatton Cross" "Piccadilly line" "Heathrow Terminal 4"
+Hatton Cross
+Heathrow Terminal 4
+[1;31m
+Start test 4[0m
+=> /route "Victoria line" "Green Park" "Northern line" "Oval"
+Green Park
+Jubilee line
+Green Park
+Westminster
+
+Waterloo
+Northern line
+
+Waterloo
+Kennington
+Oval
+[1;31m
+Start test 5[0m
+;> /route "Victoria line" "Victoria" "Northern line" "Oval"
+
+Victoria
+	Pimlico
+
+Vauxhall
+Stockwell
+Northern line
+Stockwell
+Oval
+[1;31m
+Start test 6[0m
+I> /route "Waterloo & City line" "Waterloo" "Waterloo & City line" "Bank"
+
+Waterloo
+Bank
+[1;31m
+Start test 7[0m
+J> /fastest-route "District line" "Richmond" "District line" "Gunnersbury"
+
+Richmond
+Kew Gardens
+Gunnersbury
+Total: 12 minutes in the way
